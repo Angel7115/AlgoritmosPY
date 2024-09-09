@@ -29,6 +29,7 @@ try:
         print(f"El tercer ángulo del triángulo es: {tercer_angulo} grados.")
     else:
         print(
+            "La suma de los angulos internos siempre es igual a 180;\n"
             "Por favor, asegúrate de que ambos ángulos sean positivos y que la suma de ambos sea menor que 180 grados.")
 except ValueError:
     print("Por favor, introduce valores válidos para los ángulos (solo números enteros).")

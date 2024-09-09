@@ -1,11 +1,11 @@
 import math
-
+#Actualizacion de los litros por hora
 
 def calcular_litros(time_hours):
     """
     Calcula la cantidad de litros de agua que Nathan beberá, dado el tiempo en horas de ciclismo.
 
-    Nathan bebe 0.5 litros de agua por cada hora de ciclismo.
+    Nathan bebe 0.8 litros de agua por cada hora de ciclismo.
 
     Parámetros:
     time_hours (float): Tiempo de ciclismo en horas.
@@ -14,7 +14,7 @@ def calcular_litros(time_hours):
     int: Litros de agua que Nathan beberá, redondeados hacia abajo.
     """
     # Nathan bebe 0.5 litros por hora
-    litros = 0.5 * time_hours
+    litros = 0.8 * time_hours
 
     # Redondeamos hacia abajo para obtener el número entero más pequeño
     litros_redondeados = math.floor(litros)

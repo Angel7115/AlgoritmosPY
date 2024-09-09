@@ -1,3 +1,4 @@
+#Actualizacion de Tasa de cambio CNY 6.55 a 7.11 dia 09/09/24
 def convertir_usd_a_cny(cantidad_usd):
     """
     Convierte una cantidad en USD a CNY utilizando una tasa de cambio de 6.75.
@@ -9,7 +10,7 @@ def convertir_usd_a_cny(cantidad_usd):
     str: La cantidad equivalente en yuanes chinos (CNY), formateada con dos decimales, seguida de 'Chinese Yuan'.
     """
     # Tasa de conversión USD a CNY
-    tasa_conversion = 6.75
+    tasa_conversion = 7.11
 
     # Realizamos la conversión
     cantidad_cny = cantidad_usd * tasa_conversion

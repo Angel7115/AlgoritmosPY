@@ -1,3 +1,4 @@
+#actualizacion de 2 a 3 decimales
 def redondear_a_dos_decimales(numero):
     """
     Redondea un número a dos decimales y lo devuelve como una cadena.
@@ -9,7 +10,7 @@ def redondear_a_dos_decimales(numero):
     str: El número redondeado a dos decimales como una cadena.
     """
     # Redondear el número a dos decimales
-    numero_redondeado = round(numero, 2)
+    numero_redondeado = round(numero, 3)
 
     # Formatear el número como una cadena con dos decimales
     return f"{numero_redondeado:.2f}"
